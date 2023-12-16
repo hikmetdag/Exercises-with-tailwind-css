@@ -1,5 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Card from "./components/Card";
+
 function App() {
-  return <h1 className=' text-5xs text-red ' >Hello tailwind!</h1>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/card" element={<Card />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
