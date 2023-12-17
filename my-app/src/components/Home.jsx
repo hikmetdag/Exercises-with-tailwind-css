@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <h1>Welcome to tailwind css</h1>
+      <h1 className="flex justify-center items-center  min-h-screen">Welcome to tailwind css</h1>
     </>
   );
 };
